@@ -23,7 +23,7 @@ let db;
 
 client.connect(function(err) {
   if (err) throw err;
-  db = client.db("fake");
+  db = client.db("heroku_s8scws9k");
 });
 
 //use static files
